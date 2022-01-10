@@ -1,0 +1,14 @@
+D:\personal folder\my secrets\sendign-email\WebApplication6\obj\Release\net6.0\PubTmp\Out\WebApplication6.exe
+D:\personal folder\my secrets\sendign-email\WebApplication6\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\personal folder\my secrets\sendign-email\WebApplication6\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\personal folder\my secrets\sendign-email\WebApplication6\obj\Release\net6.0\PubTmp\Out\WebApplication6.dll
+D:\personal folder\my secrets\sendign-email\WebApplication6\obj\Release\net6.0\PubTmp\Out\WebApplication6.deps.json
+D:\personal folder\my secrets\sendign-email\WebApplication6\obj\Release\net6.0\PubTmp\Out\WebApplication6.runtimeconfig.json
+D:\personal folder\my secrets\sendign-email\WebApplication6\obj\Release\net6.0\PubTmp\Out\WebApplication6.pdb
+D:\personal folder\my secrets\sendign-email\WebApplication6\obj\Release\net6.0\PubTmp\Out\MailKit.dll
+D:\personal folder\my secrets\sendign-email\WebApplication6\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\personal folder\my secrets\sendign-email\WebApplication6\obj\Release\net6.0\PubTmp\Out\MimeKit.dll
+D:\personal folder\my secrets\sendign-email\WebApplication6\obj\Release\net6.0\PubTmp\Out\BouncyCastle.Crypto.dll
+D:\personal folder\my secrets\sendign-email\WebApplication6\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\personal folder\my secrets\sendign-email\WebApplication6\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\personal folder\my secrets\sendign-email\WebApplication6\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

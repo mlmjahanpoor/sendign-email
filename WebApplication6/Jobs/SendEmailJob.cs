@@ -22,12 +22,12 @@ namespace WebApplication6.Jobs
 
             try
             {
-                 await _mailService.SendEmailAsync(new MailRequest 
-                 { 
-                     Subject=$"333333332new HI {Guid.NewGuid()}",
-                     Body=$"{Guid.NewGuid()}",
-                     ToEmail="mlmjahanpoor1996@gmail.com"
-                 });
+                 //await _mailService.SendEmailAsync(new MailRequest 
+                 //{ 
+                 //    Subject=$"333333332new HI {Guid.NewGuid()}",
+                 //    Body=$"{Guid.NewGuid()}",
+                 //    ToEmail="mlmjahanpoor1996@gmail.com"
+                 //});
                
             }
             catch (Exception ex)

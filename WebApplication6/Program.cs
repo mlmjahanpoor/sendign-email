@@ -29,7 +29,7 @@ builder.Services.AddQuartz(q =>
         .WithIdentity("HelloWorldJob-trigger")
         .WithSimpleSchedule(x =>
         {
-            x.WithIntervalInSeconds(10);
+            x.WithIntervalInHours(12);
             x.RepeatForever();
             x.WithRepeatCount(1);
             

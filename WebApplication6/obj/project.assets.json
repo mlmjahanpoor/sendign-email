@@ -184,6 +184,15 @@
           "lib/net50/MimeKit.dll": {}
         }
       },
+      "OpenPop.Core/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/OpenPop.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenPop.dll": {}
+        }
+      },
       "Portable.BouncyCastle/1.8.10": {
         "type": "package",
         "compile": {
@@ -799,6 +808,19 @@
         "lib/netstandard2.1/MimeKit.xml",
         "mimekit.2.15.0.nupkg.sha512",
         "mimekit.nuspec"
+      ]
+    },
+    "OpenPop.Core/1.0.0": {
+      "sha512": "5Ru3Q4iGYE3KOrtOvPsbyeW1TnNJ2DUi2Gt2q7ObuaZL4xmDGbtG4rUFSpojWVXrBuXqg0sDTSXWZ+K1AARsIg==",
+      "type": "package",
+      "path": "openpop.core/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "OpenLicense.txt",
+        "lib/netstandard2.0/OpenPop.dll",
+        "openpop.core.1.0.0.nupkg.sha512",
+        "openpop.core.nuspec"
       ]
     },
     "Portable.BouncyCastle/1.8.10": {
@@ -1655,6 +1677,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "MailKit >= 2.15.0",
+      "OpenPop.Core >= 1.0.0",
       "Quartz.AspNetCore >= 3.3.3",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -1701,6 +1724,10 @@
           "MailKit": {
             "target": "Package",
             "version": "[2.15.0, )"
+          },
+          "OpenPop.Core": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "Quartz.AspNetCore": {
             "target": "Package",

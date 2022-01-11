@@ -9,6 +9,7 @@
       "WebApplication6/1.0.0": {
         "dependencies": {
           "MailKit": "2.15.0",
+          "OpenPop.Core": "1.0.0",
           "Quartz.AspNetCore": "3.3.3",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -109,6 +110,14 @@
           "lib/net50/MimeKit.dll": {
             "assemblyVersion": "2.15.0.0",
             "fileVersion": "2.15.0.0"
+          }
+        }
+      },
+      "OpenPop.Core/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/OpenPop.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -431,6 +440,13 @@
       "sha512": "sha512-146As77LbmZezdSJ5W/2ZEQsZyqVSAM8yOjDjvsy6NpLmyqG8lgzmX6ps3P/fKzUN5Ey4hxwnAtH+KLlJW0CsQ==",
       "path": "mimekit/2.15.0",
       "hashPath": "mimekit.2.15.0.nupkg.sha512"
+    },
+    "OpenPop.Core/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5Ru3Q4iGYE3KOrtOvPsbyeW1TnNJ2DUi2Gt2q7ObuaZL4xmDGbtG4rUFSpojWVXrBuXqg0sDTSXWZ+K1AARsIg==",
+      "path": "openpop.core/1.0.0",
+      "hashPath": "openpop.core.1.0.0.nupkg.sha512"
     },
     "Portable.BouncyCastle/1.8.10": {
       "type": "package",

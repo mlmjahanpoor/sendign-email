@@ -1660,19 +1660,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Moslem\\.nuget\\packages\\": {}
+    "C:\\Users\\Moslem jahanpoor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\sendign-email\\WebApplication6\\WebApplication6.csproj",
+      "projectUniqueName": "D:\\personal folder\\my secrets\\sendign-email\\sendign-email\\WebApplication6\\WebApplication6.csproj",
       "projectName": "WebApplication6",
-      "projectPath": "D:\\Projects\\sendign-email\\WebApplication6\\WebApplication6.csproj",
-      "packagesPath": "C:\\Users\\Moslem\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\sendign-email\\WebApplication6\\obj\\",
+      "projectPath": "D:\\personal folder\\my secrets\\sendign-email\\sendign-email\\WebApplication6\\WebApplication6.csproj",
+      "packagesPath": "C:\\Users\\Moslem jahanpoor\\.nuget\\packages\\",
+      "outputPath": "D:\\personal folder\\my secrets\\sendign-email\\sendign-email\\WebApplication6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Moslem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Moslem jahanpoor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1729,7 +1729,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

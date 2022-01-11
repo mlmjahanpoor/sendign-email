@@ -74,7 +74,7 @@ app.UseSwagger();
 app.UseSwaggerUI();
 
 app.UseDeveloperExceptionPage();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

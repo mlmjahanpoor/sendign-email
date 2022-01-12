@@ -1,4 +1,7 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using Quartz;
+using System.Text;
 using WebApplication6.Jobs;
 using WebApplication6.Services;
 using WebApplication6.Settings;
@@ -16,6 +19,29 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddAuthentication(options =>
+{
+
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultSignInScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+}).AddJwtBearer(ops =>
+{
+    ops.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+    {
+        ValidIssuer = "test",
+        ValidAudience = "test",
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("{F2261C67-85F6-47C7-96B0-E66132147D11}")),
+        ValidateIssuerSigningKey = true,
+        ValidateLifetime = true,
+    };
+
+    ops.SaveToken = true;
+
+
+
+});
 
 #region Quartz
 
@@ -32,12 +58,12 @@ builder.Services.AddQuartz(q =>
             x.WithIntervalInHours(12);
             x.RepeatForever();
             x.WithRepeatCount(1);
-            
+
         }));
-        
-        
-        // give the trigger a unique name
-        /*.WithCronSchedule("* * * * * ?"));*/ // run every 5 seconds
+
+
+    // give the trigger a unique name
+    /*.WithCronSchedule("* * * * * ?"));*/ // run every 5 seconds
 
 });
 

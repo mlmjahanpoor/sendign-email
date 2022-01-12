@@ -164,3 +164,10 @@ D:\personal folder\my secrets\sendign-email\sendign-email\WebApplication6\obj\De
 D:\personal folder\my secrets\sendign-email\sendign-email\WebApplication6\obj\Debug\net6.0\WebApplication6.pdb
 D:\personal folder\my secrets\sendign-email\sendign-email\WebApplication6\obj\Debug\net6.0\WebApplication6.genruntimeconfig.cache
 D:\personal folder\my secrets\sendign-email\sendign-email\WebApplication6\bin\Debug\net6.0\OpenPop.dll
+D:\personal folder\my secrets\sendign-email\sendign-email\WebApplication6\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\personal folder\my secrets\sendign-email\sendign-email\WebApplication6\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\personal folder\my secrets\sendign-email\sendign-email\WebApplication6\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\personal folder\my secrets\sendign-email\sendign-email\WebApplication6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\personal folder\my secrets\sendign-email\sendign-email\WebApplication6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\personal folder\my secrets\sendign-email\sendign-email\WebApplication6\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\personal folder\my secrets\sendign-email\sendign-email\WebApplication6\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
